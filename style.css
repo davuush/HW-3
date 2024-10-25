@@ -1,0 +1,25 @@
+.box:first-child{
+position:absolute ;
+width:100px ;
+height:100px ;
+background-color: red;
+margin-left: 600px;
+margin-top: 100px;
+}
+.box:nth-child(2){
+    position: absolute;
+width: 100px;
+height: 100px;
+background-color: blue;
+margin-left: 650px;
+margin-top: 150px;
+z-index: 1;
+}
+.box:nth-child(3){
+    position: absolute;
+width: 100px;
+height: 100px;
+background-color: green;
+margin-left: 700px;
+margin-top: 200px;
+}
